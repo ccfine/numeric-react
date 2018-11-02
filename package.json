@@ -1,0 +1,36 @@
+{
+  "name": "numeric-react",
+  "version": "1.0.1",
+  "description": "进行数字控制：千位分隔符、整数和小数位数的限制",
+  "main": "./lib/bundle.js",
+  "scripts": {
+    "build": "rm -rf lib && webpack --color --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccfine/numeric-react.git"
+  },
+  "keywords": [
+    "react-numeric"
+  ],
+  "author": "ccfine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccfine/numeric-react/issues"
+  },
+  "homepage": "https://github.com/ccfine/numeric-react#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0",
+    "react-numeric": "^0.4.1"
+  }
+}
