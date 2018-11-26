@@ -1,6 +1,6 @@
 {
   "name": "numeric-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "进行数字控制：千位分隔符、整数和小数位数的限制",
   "main": "./lib/bundle.js",
   "scripts": {
