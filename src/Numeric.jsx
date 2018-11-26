@@ -1,8 +1,8 @@
-import React, { Component } from "react"
+import React, { PureComponent } from "react"
 import ReactNumeric from "react-numeric"
 import PropTypes from "prop-types"
 
-export default class Numeric extends Component {
+export default class Numeric extends PureComponent {
   render () {
     return (
       <ReactNumeric style={{ textAlign: "right" }} { ...this.props } />
