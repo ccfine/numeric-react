@@ -49,3 +49,5 @@
 | 方法 | 说明 | 类型 |
 |------|------|------|
 | onChange | 输入框内容变化时的回调 | function(e, value) |
+
+[参考文档链接](https://github.com/autoNumeric/autoNumeric)

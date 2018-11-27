@@ -38,7 +38,8 @@ Numeric.propTypes = {
     PropTypes.number,
     PropTypes.oneOf(["progressive"])
   ]),
-  style: PropTypes.object
+  style: PropTypes.object,
+  onChange: PropTypes.func
 }
 
 Numeric.defaultProps = {
@@ -63,5 +64,6 @@ Numeric.defaultProps = {
   unformatOnSubmit: false,
   wheelOn: "focus",
   wheelStep: "progressive",
-  style: null
+  style: null,
+  onChange: null
 }
